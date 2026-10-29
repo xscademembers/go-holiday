@@ -1,0 +1,38 @@
+/* Additional global styles for Go Holidays */
+
+/* Ensure smooth animations */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Loading states */
+.loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid #ccff00;
+  outline-offset: 2px;
+  outline-color: #ccff00;
+}
+
+/* Stylish lime glow utility for CTAs */
+.lime-glow {
+  box-shadow: 0 10px 40px -10px rgba(204, 255, 0, 0.45);
+}
+.lime-glow:hover {
+  box-shadow: 0 14px 48px -8px rgba(204, 255, 0, 0.55);
+}
+
+/* Image optimization */
+img {
+  max-width: 100%;
+  height: auto;
+}
